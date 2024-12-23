@@ -88,10 +88,7 @@ waypoints:
       w: 0.70716
       x: 0.0
       y: 0.0
-      README
-
-
-z: -0.70705
+      z: -0.70705
   - name: Goal_10
     position:
       x: 0.64859
@@ -122,7 +119,7 @@ z: -0.70705
       x: 0.0
       y: 0.0
       z: 0.0
-   - name: Goal_13
+  - name: Goal_13
     position:
       x: 8.2134
       y: 7.258
