@@ -49,7 +49,7 @@ Once ensured that the environment is correctly set up, launch the follow_waypoin
 ros2 run rl_fra2mo_description follow_waypoints.py
 ```
 
-### 2. Vision-based navigation of the mobile platform
+### 2. Environment mapping tuning the navigation stack's parameters
 Run the simulation environment through the following launch file (by default the Gazebo simulation starts in the "PAUSED" state. To make it play click on the bottom left "Play" button):
 ```
 ros2 launch rl_fra2mo_description gazebo_fra2mo.launch.py
