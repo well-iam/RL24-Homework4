@@ -1,0 +1,14 @@
+Execution Time: 2.20
+Accuracy: Good
+--
+Params value:
+
+transform_publish_period: 0.1
+resolution: 0.1
+minimum_travel_distance: 0.05
+minimum_travel_heading: 0.01
+
+inflation_radius: 0.1
+cost_scaling_factor: 2.0
+
+

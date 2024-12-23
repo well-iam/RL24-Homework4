@@ -1,0 +1,51 @@
+waypoints:
+  - name: Goal_1
+    position:
+      x: -8.8297
+      y: 1.5622
+      z: 0.0
+    orientation:
+      w: 0.81447
+      x: 0.0
+      y: 0.0
+      z: -0.58021
+  - name: Goal_2
+    position:
+      x: -5.4005
+      y: -3.7533
+      z: 0.0
+    orientation:
+      w: 0.99586
+      x: 0.0
+      y: 0.0
+      z: -0.09093
+  - name: Goal_3
+    position:
+      x: -1.7787
+      y: -3.2499
+      z: 0.0
+    orientation:
+      w: 0.65309
+      x: 0.0
+      y: 0.0
+      z: 0.75728
+  - name: Goal_4
+    position:
+      x: -2.9096
+      y: -0.057695
+      z: 0.0
+    orientation:
+      w: 0.74236
+      x: 0.0
+      y: 0.0
+      z: -0.67
+  - name: Goal_5
+    position:
+      x: -3.0
+      y: 3.5
+      z: 0.0
+    orientation:
+      w: 0.7073883
+      x: 0.0
+      y: 0.0
+      z: -0.7068252

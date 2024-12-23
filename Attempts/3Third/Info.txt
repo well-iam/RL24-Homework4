@@ -1,0 +1,14 @@
+Execution Time: Failed
+Accuracy: Incomplete
+--
+Params value:
+
+transform_publish_period: 0.2
+resolution: 0.2
+minimum_travel_distance: 0.3
+minimum_travel_heading: 0.1
+
+inflation_radius: 0.05
+cost_scaling_factor: 1.5
+
+

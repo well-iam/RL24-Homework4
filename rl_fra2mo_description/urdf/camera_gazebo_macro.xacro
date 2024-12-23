@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="camera_gazebo_macro" >
+
+  <!--<xacro:include filename="$(find rl_fra2mo_description)/urdf/utility_macro.xacro" />-->
+
+  <xacro:macro name="camera_gazebo_sensor" params="parent">
+
+    <link name="tool_camera">
+      <inertial>
+        <origin xyz="0 0 0"/>
+        <mass value="0.1"/>
+        <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+      </inertial>
+      <visual>
+        <geometry>
+          <box size="0.022 0.022 0.055"/> 
+        </geometry>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <material name="green"/>
+      </visual>
+    </link>
+
+    <joint name="joint_camera" type="fixed">
+      <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+      <parent link="${parent}" />
+      <child link="tool_camera"/>
+    </joint>
+
+  <!-- Before it was camera_optical_joint -->
+  <joint name="joint_camera_optical" type="fixed">
+    <origin rpy="-1.57 0 -1.57" xyz="0.0 0.0 0.0" /><!-- Original -->
+   <!--  <origin rpy="1.57 0 0" xyz="0.0 0.0 0.0" /> --><!-- To substitute porcheria -->
+    
+    <parent link="tool_camera"/>
+    <child link="camera_optical"/>
+  </joint>
+  <link name="camera_optical"></link>
+
+    <gazebo reference="tool_camera">
+      <sensor name="camera" type="camera">
+        <camera>
+        <horizontal_fov>1.047</horizontal_fov>
+          <image>
+            <width>640</width>
+            <height>480</height>
+          </image>
+        <clip>
+          <near>0.1</near>
+          <far>100</far>
+        </clip>
+        </camera>
+        <always_on>1</always_on>
+        <update_rate>30.0</update_rate>
+        <visualize>true</visualize>
+        <topic>camera</topic>
+      </sensor>
+      <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+          <render_engine>ogre2</render_engine>
+      </plugin>
+  </gazebo>
+
+  </xacro:macro>
+</robot>
+

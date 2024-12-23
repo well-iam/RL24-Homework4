@@ -1,0 +1,154 @@
+waypoints:
+  - name: Goal_1
+    position:
+      x: 0.7005
+      y: -3.7294
+      z: 0.0
+    orientation:
+      w: 0.87291
+      x: 0.0
+      y: 0.0
+      z: -0.487
+  - name: Goal_2
+    position:
+      x: 4.485
+      y: -5.46
+      z: 0.0
+    orientation:
+      w: 0.933
+      x: 0.0
+      y: 0.0
+      z: 0.359
+  - name: Goal_3
+    position:
+      x: 7.7443
+      y: -1.2044
+      z: 0.0
+    orientation:
+      w: 0.6966
+      x: 0.0
+      y: 0.0
+      z: 0.7175
+  - name: Goal_4
+    position:
+      x: 5.235
+      y: 1.5793
+      z: 0.0
+    orientation:
+      w: -0.1939
+      x: 0.0
+      y: 0.0
+      z: 0.98102
+  - name: Goal_5
+    position:
+      x: 2.8466
+      y: -0.53781
+      z: 0.0
+    orientation:
+      w: 0.74948
+      x: 0.0
+      y: 0.0
+      z: 0.66203
+  - name: Goal_6
+    position:
+      x: 3.4218
+      y: 6.9504
+      z: 0.0
+    orientation:
+      w: 0.70833
+      x: 0.0
+      y: 0.0
+      z: 0.70588
+  - name: Goal_7
+    position:
+      x: 2.801
+      y: 10.091
+      z: 0.0
+    orientation:
+      w: 0.55121
+      x: 0.0
+      y: 0.0
+      z: 0.83436
+  - name: Goal_8
+    position:
+      x: 0.59828
+      y: 12.381
+      z: 0.0
+    orientation:
+      w: 0.0
+      x: 0.0
+      y: 0.0
+      z: 1.0
+  - name: Goal_9
+    position:
+      x: -1.0747
+      y: 10.139
+      z: 0.0
+    orientation:
+      w: 0.70716
+      x: 0.0
+      y: 0.0
+      README
+
+
+z: -0.70705
+  - name: Goal_10
+    position:
+      x: 0.64859
+      y: 6.7699
+      z: 0.0
+    orientation:
+      w: 0.82454
+      x: 0.0
+      y: 0.0
+      z: 0.5658
+  - name: Goal_11
+    position:
+      x: 4.7951
+      y: 11.876
+      z: 0.0
+    orientation:
+      w: 0.96859
+      x: 0.0
+      y: 0.0
+      z: 0.24865
+  - name: Goal_12
+    position:
+      x: 6.7059
+      y: 12.491
+      z: 0.0
+    orientation:
+      w: 1.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+   - name: Goal_13
+    position:
+      x: 8.2134
+      y: 7.258
+      z: 0.0
+    orientation:
+      w: 0.65202
+      x: 0.0
+      y: 0.0
+      z: -0.7581
+  - name: Goal_14
+    position:
+      x: 6.537
+      y: 5.7217
+      z: 0.0
+    orientation:
+      w: 0.595
+      x: 0.0
+      y: 0.0
+      z: -0.8
+  - name: Goal_15
+    position:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    orientation:
+      w: 1.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
