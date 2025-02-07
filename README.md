@@ -1,7 +1,13 @@
-# Homework4
+# Mobile Robot Navigation and Mapping (Homework4)
 
 ## :package: About
+Goals:
+- Control a mobile robot for autonomous navigation in Gazebo.
+- Map the environment using SLAM.
+- Perform vision-based navigation with ArUco markers.
+- Use Nav2 Framework to achieve waypoint navigation, explore mapping techniques, and tune parameters for SLAM and exploration.
 
+Tests and results are included in the report file, comparing navigation performance under different settings, with visualizations of robot trajectories and mapping accuracy. Code and simulation videos are available on GitHub and YouTube. 
 This package contains the developed code for the fourth homework of the Robotics Lab 2024/25 Course. The authors of the package are:
 William Notaro, Chiara Panagrosso, Salvatore Piccolo, Roberto Rocco.
 
